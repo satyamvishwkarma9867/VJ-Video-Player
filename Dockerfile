@@ -11,6 +11,6 @@ COPY requirements.txt /requirements.txt
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /VJ-Video-Player
-WORKDIR /VJ-Video-Player
+WORKDIR /https://github.com/VJBots/VJ-Vid...​
 COPY . /VJ-Video-Player
 CMD ["python", "bot.py"]
